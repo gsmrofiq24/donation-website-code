@@ -1,0 +1,37 @@
+[01-Jul-2025 12:15:32 UTC] PHP Parse error:  syntax error, unexpected ''callback' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/topwinx1/job.xyz/donate.php on line 29
+[01-Jul-2025 12:18:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/donate.php on line 8
+[01-Jul-2025 12:19:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/donate.php on line 8
+[01-Jul-2025 12:24:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topwinx1/job.xyz/donate.php on line 19
+[01-Jul-2025 14:14:22 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/admin_dashboard.php on line 21
+[01-Jul-2025 14:14:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/admin_dashboard.php on line 21
+[01-Jul-2025 14:33:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
+[01-Jul-2025 14:33:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
+[01-Jul-2025 14:33:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
+[01-Jul-2025 14:40:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
+[01-Jul-2025 14:41:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
+[01-Jul-2025 17:23:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
+[01-Jul-2025 17:23:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:30:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
+[01-Jul-2025 17:30:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:30:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:31:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
+[01-Jul-2025 17:31:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
+[01-Jul-2025 17:34:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 13
+[01-Jul-2025 17:34:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 13
