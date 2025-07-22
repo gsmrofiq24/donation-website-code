@@ -1,37 +1,17 @@
-[01-Jul-2025 12:15:32 UTC] PHP Parse error:  syntax error, unexpected ''callback' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/topwinx1/job.xyz/donate.php on line 29
-[01-Jul-2025 12:18:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/donate.php on line 8
-[01-Jul-2025 12:19:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/donate.php on line 8
-[01-Jul-2025 12:24:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topwinx1/job.xyz/donate.php on line 19
-[01-Jul-2025 14:14:22 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/admin_dashboard.php on line 21
-[01-Jul-2025 14:14:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/admin_dashboard.php on line 21
-[01-Jul-2025 14:33:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
-[01-Jul-2025 14:33:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
-[01-Jul-2025 14:33:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
-[01-Jul-2025 14:40:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
-[01-Jul-2025 14:41:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/topwinx1/job.xyz/admin_dashboard.php on line 7
-[01-Jul-2025 17:23:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
-[01-Jul-2025 17:23:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
+[01-Jul-2025 13:01:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 20
+[01-Jul-2025 13:01:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 20
+[01-Jul-2025 13:04:17 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 5
+[01-Jul-2025 13:04:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 5
+[01-Jul-2025 13:09:37 UTC] PHP Notice:  Undefined variable: conn in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 62
+[01-Jul-2025 13:09:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php:62
 Stack trace:
 #0 {main}
-  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:30:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
-[01-Jul-2025 17:30:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:30:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
+  thrown in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 62
+[01-Jul-2025 16:53:31 UTC] PHP Warning:  require_once(../send_email.php): failed to open stream: No such file or directory in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 72
+[01-Jul-2025 16:53:31 UTC] PHP Fatal error:  require_once(): Failed opening required '../send_email.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 72
+[01-Jul-2025 16:56:56 UTC] PHP Warning:  require(phpmailer/PHPMailer.php): failed to open stream: No such file or directory in /home/topwinx1/job.xyz/send_email.php on line 6
+[01-Jul-2025 16:56:56 UTC] PHP Fatal error:  require(): Failed opening required 'phpmailer/PHPMailer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/topwinx1/job.xyz/send_email.php on line 6
+[01-Jul-2025 17:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sendDonationEmail() in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php:73
 Stack trace:
 #0 {main}
-  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:31:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES) in /home/topwinx1/job.xyz/admin_dashboard.php on line 3
-[01-Jul-2025 17:31:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:6
-Stack trace:
-#0 {main}
-  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 6
-[01-Jul-2025 17:34:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:13
-Stack trace:
-#0 {main}
-  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 13
-[01-Jul-2025 17:34:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/topwinx1/job.xyz/admin_dashboard.php:13
-Stack trace:
-#0 {main}
-  thrown in /home/topwinx1/job.xyz/admin_dashboard.php on line 13
+  thrown in /home/topwinx1/job.xyz/bkash/bkash_execute_payment.php on line 73
